@@ -1,0 +1,36 @@
+*{
+    padding: 1;
+    margin: 1;
+    border: 1;
+}
+
+.body{
+    font-family: 'roboto',sans-serif;
+}
+
+.top{
+    background-color: #26a9e1;
+    color: aliceblue;
+    font-size: 48;
+    padding: 1px 100px;
+    border-radius: 8px;
+}
+
+.sexta{
+    display: inline-block;
+    width: 90%;
+}
+
+.horario{
+    display: inline-block;
+    width: 10%;
+}
+
+.gradeado{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    border-radius: 8px;
+}

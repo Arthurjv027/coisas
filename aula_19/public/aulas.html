@@ -1,0 +1,52 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas</title>
+</head>
+<body>
+    <h1>Aulas</h1>
+    <form action="/aulas" method="post" enctype="multipart/form-data">
+            
+            <label for="">Cod Instrutor</label><br>
+            <input type="text" name="cod_instrutor"><br>
+        
+            <label for="">Instrutor</label><br>
+            <input type="text" name="instrutor"><br>
+ 
+            <label for="">Turma</label><br>
+            <input type="text" name="turma"><br>            
+
+            <label for="">Unidade Curricular</label><br>
+            <input type="text" name="unidade_curricular"><br>
+
+            <label for="">Tipo</label><br>
+            <input type="text" name="tipo"><br>
+
+            <label for="">Ambiente</label><br>
+            <input type="text" name="ambiente"><br>  
+
+            <label for="">Hora Inicio</label><br>
+            <input type="time" name="hora_inicio"><br>
+
+            <label for="">Hora Final</label><br>
+            <input type="time" name="hora_fim"><br>
+
+            <label for="">Data</label><br>
+            <input type="date" name="data"><br>  
+            
+            <label for="">Turnos</label><br>
+            <input type="radio" for="turno" name="turno" value="1">M
+            <input type="radio" for="turno" name="turno" value="2">V
+            <input type="radio" for="turno" name="turno" value="3">N
+            <input type="radio" for="turno" name="turno" value="4">I <br>
+
+            <label for="">Chave Entrega</label><br>
+            <input type="checkbox" name="chave_entregue" value="1">
+
+            <br><input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

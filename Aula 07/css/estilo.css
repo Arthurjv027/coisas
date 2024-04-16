@@ -1,0 +1,24 @@
+.white{
+    color: white;
+}
+
+.primeiraDiv{
+    border: 5px solid black;
+    background-color: red;
+    width: 450px;
+    font-family: ans-serif;
+    padding: 40px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQufgS26J58cdUAcopcQdnLZ4yibaswZi6aBxogJArchw&s);
+    
+}
+
+.segundaDiv{
+    border: 5px solid black;
+    background-color: white;
+    width: 450px;
+    font-family: ans-serif;
+    padding: 40px;
+    background-image:  url(https://www.abcdacomunicacao.com.br/wp-content/uploads/maxresdefault-6-1.jpg) ;
+    background-size: cover;  
+}
+
